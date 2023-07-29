@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fullstack Airbnb Clone with Next.js 13
 
-## Getting Started
+![airbnb](./airbnb.png)
 
-First, run the development server:
+[Visit Website](https://airbnb-xuauul.vercel.app) | [Watch Demo Video]()
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Welcome to the Fullstack Airbnb Clone project! This repository contains the code for building a fully functional Airbnb clone with seamless navigation and user experience using Next.js 13 App Router.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Introduction
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The Fullstack Airbnb Clone is a web-based platform that allows users to explore, book, and manage property rentals from various providers, providing a convenient and efficient solution for accommodation needs. With the power of Next.js 13 App Router, this application offers a smooth and immersive user experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies Used
 
-## Learn More
+The project is built using the following technologies:
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js 13
+- Prisma
+- MongoDB
+- Tailwind CSS
+- TypeScript
+- NextAuth.js
+- Cloudinary
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Seamless client-side routing with Next.js 13 App Router for enhanced user experience.
+- Secure user authentication and authorization with NextAuth.js, supporting multiple login methods.
+- Property creation, editing, and deletion with detailed information and image upload via Cloudinary CDN.
+- Advanced search algorithm enabling users to filter properties based on various criteria like category, date range, map location, number of guests, rooms, and bathrooms.
+- Favorites system allowing users to save and revisit their preferred properties.
+- Shareable URL filters for easy sharing of filtered property results with others.
+- Smooth error handling and loading states for improved user feedback.
+- Responsive design and tailwindcss for a visually appealing and mobile-friendly interface.
